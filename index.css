@@ -1,0 +1,133 @@
+
+
+
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+    color:#2a0e18;
+}
+/* 
+.back-image-for-page{
+background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5);
+
+   /*  background-image: url(./images/back-all.jpg);   
+   /*  opacity: .5;
+    repit: repit; */ /* 
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5),
+    */ 
+ 
+
+
+#intro-image{
+    margin: 10px auto;
+    background-image: url(/images/lviv1.jpg);
+    opacity: .7;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+} 
+
+
+.intro-image-h1{
+    font-size: 46px;
+ 
+}
+
+.intro-image-h2{
+    font-size: 32px;
+   
+}
+
+.intro-image-h1, .intro-image-h2{
+  
+    color:beige;
+    text-shadow: 3px 3px 3px #2a0e18;
+  
+}
+
+.activities{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 150px;
+
+}
+
+
+.activities-items{
+width: 200px;
+height: 200px;
+} 
+
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius:50%;
+}
+ 
+
+.one:hover,
+ .two:hover,
+ .three:hover{
+width:20px;
+opacity: .5;
+/* height:20px; */
+background:rgba(255, 255, 0, 0.5);
+
+ } 
+
+
+
+
+
+
+.guide{
+ display: flex;
+ flex-direction: row-reverse; 
+ justify-content: center;
+ align-items: center;
+
+} 
+
+#guide-img{
+    width: 300px;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+    opacity: .7;
+}
+
+
+
+
+.name{
+    margin: 0 auto;
+    width: 400px;
+    padding: 40px;
+   
+}
+
+
+#guide-img:hover{
+   /*  border: 15px solid #CE6260; */
+    width: 310px;
+   height: 310px;
+   opacity: .7;
+}
